@@ -30,7 +30,7 @@ print(f"Output: {output}, Same object? {original_id == id(values)}")
 	b)nonlocal result would connect to a variable in the enclosing function
 
 3.Explain what  Line D  demonstrates about variable types
-	a)he name result now refers to a list, not a number
+	a)The name result now refers to a list, not a number
 	b)Lists can contain other lists
 	c)The inner list is a reference, not a copy
 	d)If values changes later, the version inside result changes too

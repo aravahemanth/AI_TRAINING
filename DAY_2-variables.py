@@ -23,7 +23,7 @@ print(f"Output: {output}, Same object? {original_id == id(values)}")
 
 1.Explain what happens if  Line B  is changed to  temp = [100]  instead
 	a)values = [100] does not modify the global values.It only shadows it inside inner_function.
-	b)If changed to temp = [100], this does NOT change the original list anymore — because now temp is just 	  pointing to a new list, breaking the link.
+	b)If changed to temp = [100], this does NOT change the original list anymore — because now temp is just pointing to a new list, breaking the link.
 
 2.Explain what happens if  Line C  uses  global result  instead of  nonlocal result
 	a)global result updates the module-level result
